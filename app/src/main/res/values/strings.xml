@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TempConverter_WS</string>
+    <string name="please_enter_temperature">Please Enter Temperature</string>
+    <string name="enter_here">Enter Here:</string>
+    <string name="unit_from">Unit from</string>
+    <string name="unit_to">Unit to</string>
+    <string name="convert">Convert</string>
+    <string name="result">Result:</string>
+
+    <string name="URL">http://www.webservicex.net/ConvertTemperature.asmx</string>
+    <string name="NAME_SPACE">http://www.webservicex.net/</string>
+    <string name="METHOD_NAME">ConvertTemp</string>
+    <string name="SOAP_ACTION">http://www.webservicex.net/ConvertTemp</string>
+
+</resources>

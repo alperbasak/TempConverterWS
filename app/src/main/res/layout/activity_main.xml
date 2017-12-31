@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context="com.example.alperbasak.tempconverterws.activity.MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/please_enter_temperature"/>
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:hint="@string/enter_here"
+              android:id="@+id/edit_temp"
+                android:inputType="numberDecimal"/>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:layout_marginTop="20dp">
+
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:hint="@string/unit_from" android:id="@+id/edit_from" android:layout_weight="0.5"
+                  android:inputType="text"/>
+
+        <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:hint="@string/unit_to" android:id="@+id/edit_to" android:layout_weight="0.5"
+                  android:inputType="text"/>
+
+    </LinearLayout>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/convert" android:id="@+id/btn_convert" android:layout_marginTop="10dp"/>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:layout_marginTop="30dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/result"
+                  android:layout_weight="0.5" android:textSize="20sp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txt_result"
+                  android:layout_weight="0.5" android:textSize="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>
